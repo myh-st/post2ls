@@ -1,6 +1,6 @@
 galaxy_info:
   author: Myh St
-  description: Post data to Logstash 
+  description: "Post data to Logstash" 
   company: 
 
   # If the issue tracker for your role is not on github, uncomment the
