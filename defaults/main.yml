@@ -1,0 +1,8 @@
+---
+# defaults file for post2ls
+    elk_ip: "IP"
+    es_port: "ES_PORT"
+    ls_port: "LS_PORT"
+    es_user: "USERNAME"
+    es_pass: "PASSWORD"
+    csv2json: "JSON_FILE"

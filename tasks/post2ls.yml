@@ -1,0 +1,11 @@
+    - name: Post {{ es_index }} data to LS
+      uri:
+        url: "https://{{elk_ip}}:{{ls_port}}/{{es_index}}/"
+        method: POST
+        body: "{{ lookup('file','{{csv2json}}') }}"
+        validate_certs: no
+        status_code: 200
+        body_format: json
+        # return_content: yes
+      # run_once: True
+      delegate_to: localhost

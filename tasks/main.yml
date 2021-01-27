@@ -1,0 +1,4 @@
+---
+# tasks file for post2ls
+- name: Post data to Logstash
+  import_tasks: post2ls.yml
