@@ -5,4 +5,5 @@
     ls_port: "LS_PORT"
     es_user: "USERNAME"
     es_pass: "PASSWORD"
+    es_index: "ES_INDEX"
     csv2json: "JSON_FILE"
