@@ -1,7 +1,7 @@
 galaxy_info:
   author: Myh St
-  description: "Post data to Logstash" 
-  company: 
+  description: Post data to Logstash
+  #company: 
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -27,10 +27,10 @@ galaxy_info:
   # To view available platforms and versions (or releases), visit:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
-   platforms:
-   - name: CentOS
-     versions:
-     - 7
+  platforms:
+  - name: CentOS
+    versions:
+    - 7
   #   - 25
   # - name: SomePlatform
   #   versions:
